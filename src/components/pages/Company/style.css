@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  text-decoration: none;
+  color: darkgray;
+}
+.text:visited {
+  color: darkgray;
+}
+.text:hover {
+  text-decoration: underline;
+  color: blue;
+}
